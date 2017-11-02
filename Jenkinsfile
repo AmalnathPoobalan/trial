@@ -9,6 +9,7 @@ pipeline {
     stage('build source code') {
       steps {
         echo 'build source'
+        build 'javaapp'
       }
     }
     stage('Create instance') {
